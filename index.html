@@ -1,26 +1,474 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>this sucks</title>
+<title>Contact us</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<style>
+body{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ font-family: sans-serif;
+ background: ;
+}
+</style>
 </head>
 <body>
+ <div id="container">
+ 
+  <!--nav start-->
+  <style>
+  #navigation-cont{
+  background: ;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #263238;
+  position: relative;
+  height: 100px;
+  }#navigation-cont #title{
+  padding: 5;
+  margin: ;
+  }#navigation-cont #title #the-head{
+  display: ;
+  position: relative;
+  }#navigation-cont #title #the-head h1{
+  color: white;
+  padding: ;
+  margin: ;
+  text-shadow: 5px 5px 5px black;
+  position: absolute;
+  top: 0;
+  left: 20;
+  }
+  
+  #span{
+  animation: span 2s linear infinite;
+  display: ;
+  border: 1px solid white;
+  padding: 5;
+  }@keyframes span{
+  0%{color: red;border: 1px solid red;}
+  33.3%{color: #6cf;border: 1px solid #6cf;}
+  66.6%{color: chocolate;border: 1px solid chocolate;}
+  100%{color: red;border: 1px solid red;}
+  }
+  
+  
+  
+  #navigation-cont #navigator{
+  position: absolute;
+  top: 25;
+  right: 30;
+  
+  }#navigation-cont #navigator #btn-cont{
+  position: relative;
+  }#navigation-cont #navigator #btn-cont #menu-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: 0px solid white;
+  border-radius: 5px;
+  padding: 5;
+  }#navigation-cont #navigator #btn-cont #menu-btn svg{
+  font-size: 35px;
+  }
+  
+  #navigation-cont #navigator #btn-cont #cancel-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: 0px solid white;
+  border-radius: 5px;
+  padding: 5;
+  display: none;
+  }#navigation-cont #navigator #btn-cont #cancel-btn svg{
+  font-size: 35px;
+  }
+  </style>
+  <div id="navigation-cont">
+  
+  <!--title start-->
+  <div id="title">
+  
+  <div id="the-head">
+  <h1>Banda <span id="span">Tree's</span></h1>
+  </div>
+  
+  </div>
+  <!--title end-->
+  
+  <!--navigator start-->
+  <div id="navigator">
+  
+  <!--btn cont start-->
+  <div id="btn-cont">
+  <!--menu btn start-->
+  <button id="menu-btn" onclick="show()">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><rect width="18" height="2" x="3" y="11" fill="white" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="16" fill="white" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="6" fill="white" rx=".95" ry=".95"/></svg>
+  </button>
+  <!--menu btn end-->
+  
+  <!--cancel btn start-->
+  <button id="cancel-btn" onclick="hide()">
+  <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.758 17.243L12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243"/></svg>
+  </button>
+  <!--cancel btn end-->
+  </div>
+  <!--btn cont end-->
+  
+  </div>
+  <!--navigator end-->
+  
+  </div>
+  <!--nav end-->
+  <!--JS get access start-->
+  <style>
+  #js_openner{
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0px solid white;
+  display: none;
+  }
+  #js_openner #open{
+  text-align: ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0px solid white;
+  width: 300px;
+  padding: 10;
+  margin: 5;
+  background: #263238;
+  display: ;
+  }#js_openner #open a{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  }#js_openner #open a button{
+  background: none;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin: auto;
+  color: white;
+  border: 1px solid white;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  outline: none;
+  }
+  </style>
+  <div id="js_openner">
+  
+  <div id="open">
+  
+  <a href="" >
+  <button>
+  Home
+  </button>
+  </a>
+  
+  <br>
+  
+  <a href="about.html" >
+  <button>
+  About
+  </button>
+  </a>
+  
+  <br>
+  
+  <a href="" >
+  <button>
+  Contact
+  </button>
+  </a> 
+  <br>
+  
+  <a href="https://bartwel27.github.io/my-world/" >
+  <button>
+  Developers Options
+  </button>
+  </a>
+  </a>
+  </div>
+  
+  </div>
+  <!--Js get access end-->
+  
+  <!-------------------------------------->
+  
+  
+  <style>
+   form{
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 20;
+    background: gray;
+    box-shadow: 5px 5px 5px black;
+    border: ;
+   }form div{
+    margin: 5;padding: 5;
+   }form label{
+    color: white;
+   }form input{
+    width: 100%;
+    height: 35px;
+    border: ;
+    border-radius: 5px;
+    border: 0px solid white;
+    outline: none;
+   }form h3{
+   
+   
+   }form textarea{
+    width: 100%;
+    height: 70px;
+   }form button{
+    height: 35px;
+    width: 30%;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+   }
+  </style>
+   <br>
+      
+  <form action="https://formsubmit.co/bartwelmwanza7@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://bartwel27.github.io/me/thank.html">
+  
+    <h3>We are listening...</h3>
+  <div>
+   <label for="name">Name</label>
+   <input name="name" type="text" id="name" placeholder="Your name" required>
+  </div>
+  
+  <div>
+   <label for="email">Email</label>
+   <input name="email" type="email" id="email" placeholder="email" required>
+  </div>
+  
+  <div>
+   <label for="number">Number</label>
+   <input name="numbert" type="tel" id="number" placeholder="number" required>
+  </div>
+    
+  <div>
+   <label for="message">Message</label>
+   <textarea name="message" type="text" id="message" placeholder="write your message to us"></textarea>
+  </div>
+  
+  <button>Send</button>
+   
+  </form>
+  
+ </div>
+<br> 
 
-<form action="https://formsubmit.co/bartwelmwanza7@gmail.com" method="POST">
-     <input type="hidden" name="_next" value="https://bartwel27.github.io/me/thanks.html">
-     <input type="hidden" name="_captcha" value="false">
-     
-     <input type="text" name="name" placeholder="name" required>
-      <br>
-     <input type="email" name="email" placeholder="email" required>
-      <br>
-     <input type="password" name="password" placeholder="password" required>
-     <br>
-     <textarea type="message" name="message" placeholder="message"></textarea>
-     
-     <button type="submit">Send</button>
-</form>
 
+
+
+
+<!--bottom nav start-->
+<style>
+ #bottom-nav{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background: #f4f4f4;
+  position: sticky;
+  bottom: 0;
+  padding: 10;
+  font-size: 10px;
+  
+  max-width: 800px;
+  margin: 0 auto;
+ }#bottom-nav a{
+  text-decoration: none;
+  color: black;
+ }#bottom-nav a #home{
+ 
+ }#bottom-nav a #home svg{
+  font-size: 20px;
+ }
+ 
+ #bottom-nav a #about{
+ 
+ }#bottom-nav a #about svg{
+  font-size: 20px;
+ }
+ 
+ #bottom-nav a #contact{
+ 
+ }#bottom-nav a #contact svg{
+  font-size: 20px;
+ }
+</style>
+<div id="bottom-nav">
+ 
+  <a href="#.html" >
+ <div id="home">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="currentColor" d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3c0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8c24.9-25 24.9-65.5-.1-90.5z"/></svg>
+  <br>
+  Home
+ </div>
+  </a>
+ 
+  <a href="about.html" >
+ <div id="about">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><path fill="#2196F3" d="M37 40H11l-6 6V12c0-3.3 2.7-6 6-6h26c3.3 0 6 2.7 6 6v22c0 3.3-2.7 6-6 6z"/><g fill="#fff"><path d="M22 20h4v11h-4z"/><circle cx="24" cy="15" r="2"/></g></svg>
+  <br>
+  About
+ </div>
+   </a>
+ 
+  <a href="#.html" >
+ <div id="contact">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001c0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"/></svg>
+  <br>
+  Contact
+ </div>
+  </a>
+ 
+</div>
+<!--bottom nav end-->
+
+
+<!------------------------------------->
+
+
+<!--footer start-->
+<style>
+#footer{
+ background: #263238;
+ height: 600px;
+ position: relative;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding-top: 5;
+}#footer #details{
+ margin: 10;
+ padding: 10;
+}#footer #foot-icon{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}#footer #foot-icon svg{
+ font-size: 250px;
+ margin: 0;
+ padding: 0;
+}#footer #details a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+   }#footer #details a button{
+    background: none;
+    width: 32%;
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+    margin-top: ;
+    color: white;
+    border: 0px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+   }
+</style>
+<div id="footer">
+
+ <!--details start-->
+  <div id="details">
+  
+  <button style="background: none; border: 0px; color: white;">
+  Copyright &copy; Banda's <span id="span">tree</span>
+  </button>
+  
+  <br><br><br>
+  
+   <a href="about.html" >
+   <button>
+   About Us
+   </button>
+   </a>
+   
+   <br>
+   
+   <a href="#.html" >
+   <button>
+   Contact
+   </button>
+   </a>
+   
+   <br>
+   
+   <a href="#.html" >
+   <button>
+   Feedback
+   </button>
+   </a>
+    
+   <br>
+   
+   <a href="#.html" >
+   <button>
+   Our shop
+   </button>
+   </a>
+   
+   <br>
+   
+   <a href="#.html" >
+   <button>
+    Ratings
+   </button>
+   </a>
+   
+   <br>
+   
+   <a href="#.html" >
+   <button>
+    Sale
+   </button>
+   </a>
+   
+   <br>
+   
+   
+   <a href="#.html" >
+   <button>
+   Feedback
+   </button>
+   </a>
+   
+   <br>
+   
+   
+   <a href="#.html" >
+   <button>
+   We are Hiring
+   </button>
+   </a>
+   </a>
+  </div>
+ <!--details end-->
+
+<div id="foot-icon">
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="gray" d="M12 19.5c3.75 0 7.159-3.379 6.768-4.125c-.393-.75-2.268 1.875-6.768 1.875s-6-2.625-6.375-1.875S8.25 19.5 12 19.5zm4.125-12c.623 0 1.125.502 1.125 1.125v1.5c0 .623-.502 1.125-1.125 1.125A1.123 1.123 0 0 1 15 10.125v-1.5c0-.623.502-1.125 1.125-1.125zm-8.25 0C8.498 7.5 9 8.002 9 8.625v1.5c0 .623-.502 1.125-1.125 1.125a1.123 1.123 0 0 1-1.125-1.125v-1.5c0-.623.502-1.125 1.125-1.125zM12 0C5.381 0 0 5.381 0 12s5.381 12 12 12s12-5.381 12-12S18.619 0 12 0zm0 1.5c5.808 0 10.5 4.692 10.5 10.5S17.808 22.5 12 22.5S1.5 17.808 1.5 12S6.192 1.5 12 1.5Z"/></svg>
+</div>
+
+</div>
+<!--footer end-->
+
+<script src="js/main.js"></script>
 </body>
 </html>
